@@ -1,0 +1,112 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding-bottom: 80px;
+    background: #fff;
+    width: 100%;
+  }
+  
+  .login-container {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .input-box select, 
+  .input-box input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .info-text {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .primary-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #ff385c, #e61e4d);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+.divider span {
+  background: white;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+.divider::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  top: 50%;
+  left: 0;
+  z-index: 0;
+}
+
+.social-btns button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.help-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #555;
+}
+
+.nav-item.active {
+  color: #e61e4d;
+}
+
+  
